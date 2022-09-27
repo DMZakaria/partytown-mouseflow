@@ -1,0 +1,33 @@
+<html>
+  <title>Angular App</title>
+  <head>
+    <!-- Partytown config properties -->
+    <script>
+      partytown = {
+        debug: true,
+        logCalls: true,
+        logGetters: true,
+        logSetters: true,
+        logImageRequests: true,
+        logScriptExecution: true,
+        logSendBeaconRequests: true,
+        logStackTraces: true,
+      };
+    </script>
+
+    <!--Inlined Partytown Snippet  -->
+    <script src="/~partytown/debug/partytown.js"></script>
+  </head>
+  <body>
+    <my-app>loading</my-app>
+    <script type="text/partytown">
+      window._mfq = window._mfq || [];
+      (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/62f67994-e1d6-4218-9eb3-a7c1322a0a95.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
+  </body>
+</html>

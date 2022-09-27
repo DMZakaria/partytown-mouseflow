@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "test-proejct-c2664"
+  },
+  "targets": {
+    "test-proejct-c2664": {
+      "hosting": {
+        "app": [
+          "test-proejct-c2664"
+        ],
+        "mouseflow": [
+          "mouseflow"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
